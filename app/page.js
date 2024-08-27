@@ -34,15 +34,19 @@ export default function Home() {
         rel="stylesheet"
       ></link>
       <div>
-        <h1 className="font-darum text-3xl text-darkYellow text-center">
-          Therapy dogs
+        <h1 className="font-darum text-3xl text-darkYellow text-center pb-3">
+          UW Student Wellness Office: Therapy puppies
         </h1>
-        <p className="font-gaegu text-center text-xl max-w-md">
-          The student wellness office would like to invite you to Therapy
-          puppies party. The event is completely free for students. Please RSVP
-          below.
+        <p className="font-gaegu text-center text-xl max-w-md m-auto">
+          Come interact with puppies as a study break. The event is completely free for students. 
         </p>
-        <img src="/dog.png" className="max-w-md w-[90vw] mb-3 m-auto" />
+        <p className="font-gaegu text-center text-xl max-w-md m-auto mt-3">
+          When? December 12th from 1-5pm 
+        </p>
+        <p className="font-gaegu text-center text-xl max-w-md m-auto">
+          Where? Student life center
+        </p>
+        <img src="/dog.png" className="max-w-md w-[90vw] my-3 m-auto" />
         <RSVP />
       </div>
     </main>
