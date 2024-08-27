@@ -1,2 +1,11 @@
-//for pre-filling https://theconfuzedsourcecode.wordpress.com/2019/11/10/lets-auto-fill-google-forms-with-url-parameters/
-// https://docs.google.com/forms/d/e/1FAIpQLSdPOLUxfUFCuvzvvaLP3hKfUI-p-UQueTA0_fsiRNO0R3NiDQ/viewform?entry.1370242340=belle
+export default function RSVP() {
+  return (
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdPOLUxfUFCuvzvvaLP3hKfUI-p-UQueTA0_fsiRNO0R3NiDQ/viewform"
+      className="px-3 py-2 block bg-darkYellow w-fit rounded-md text-lightYellow m-auto font-darum"
+      target="_blank"
+    >
+      RSVP
+    </a>
+  );
+}
