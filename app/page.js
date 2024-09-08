@@ -48,10 +48,10 @@ export default function Home() {
                 probably don't need more convincing but in case you do, it's
                 also free!
               </p>
-              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto mt-3">
+              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto mt-3 font-bold">
                 ⏰ When? December 12th, 1-5pm
               </p>
-              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto">
+              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto font-bold">
                 📍 Where? Student life center
               </p>
               <RSVP />
