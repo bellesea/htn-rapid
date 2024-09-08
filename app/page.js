@@ -51,7 +51,7 @@ export default function Home() {
               <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto mt-3 font-bold">
                 ⏰ When? December 12th, 1-5pm
               </p>
-              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto font-bold">
+              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto font-bold mb-3">
                 📍 Where? Student life center
               </p>
               <RSVP />

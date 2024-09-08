@@ -12,7 +12,7 @@ export default function RSVP() {
   return (
     <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSdPOLUxfUFCuvzvvaLP3hKfUI-p-UQueTA0_fsiRNO0R3NiDQ/viewform"
-      className="px-3 py-2 block bg-darkYellow w-fit rounded-md text-lightYellow m-auto font-darum"
+      className="px-3 pt-1 pb-2 block bg-darkYellow w-fit rounded-md text-lightYellow font-darum font-xl md:font-2xl"
       target="_blank"
     >
       {timePassed ? "This already happened" : "RSVP"}
