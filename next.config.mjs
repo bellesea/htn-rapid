@@ -3,5 +3,6 @@ const nextConfig = {
   images: {
     domains: ["random.dog"],
   },
+  reactStrictMode: false
 };
 export default nextConfig;

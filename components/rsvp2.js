@@ -8,8 +8,8 @@ export default function RSVP() {
 
   useEffect(() => {
     setTimePassed(currentDate > eventDate);
-  });
-  
+  }, []);
+
   return (
     <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSdPOLUxfUFCuvzvvaLP3hKfUI-p-UQueTA0_fsiRNO0R3NiDQ/viewform"

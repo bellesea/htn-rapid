@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 export default function Form() {
-  const [email, setEmail] = useState("bellesee1212@gmail.com");
+  const [email, setEmail] = useState("");
   const [status, setStatus] = useState("loading");
 
   const submitVote = async () => {
