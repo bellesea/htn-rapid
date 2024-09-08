@@ -1,11 +1,10 @@
 .rsvp {
-    padding: 8px 12px;
+    padding: 4px 12px 8px 12px;
     display: block;
     background: #E3B429;
-    width: 100%;
+    width: fit-content;
     border-radius: 6px;
     color: #FFFAAA;
-    margin: auto;
     font-family: 'Darumadrop One';
     font-size: 20px;
     line-height: 28px;
