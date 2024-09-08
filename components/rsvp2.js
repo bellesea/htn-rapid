@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from '../styles.module.css'
 
 export default function RSVP() {
   const [timePassed, setTimePassed] = useState(false);
@@ -7,12 +8,12 @@ export default function RSVP() {
 
   useEffect(() => {
     setTimePassed(currentDate > eventDate);
-  });
-  
+  }, []);
+
   return (
     <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSdPOLUxfUFCuvzvvaLP3hKfUI-p-UQueTA0_fsiRNO0R3NiDQ/viewform"
-      className="px-3 py-2 block bg-darkYellow w-fit rounded-md text-lightYellow m-auto font-darum"
+      className={styles.rsvp}
       target="_blank"
     >
       {timePassed ? "This already happened" : "RSVP"}
