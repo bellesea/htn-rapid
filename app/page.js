@@ -1,18 +1,11 @@
 "use client";
-import RSVP from "@/components/rsvp2";
 import { useState, useEffect } from "react";
 
 export default function Home() {
   const [fact, setFact] = useState("");
 
   useEffect(() => {
-    async function getData() {
-      const response = await fetch("https://dog-api.kinduff.com/api/facts");
-      const data = await response.json();
-      setFact(data.facts[0]);
-    }
-
-    getData();
+   // CODE FOR API GOES HERE
   }, []);
 
   return (
@@ -20,7 +13,6 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-center px-24 relative">
         <div className="hidden md:block absolute top-2 right-2">
           {/* RSVP GOES HERE */}
-          <RSVP />
         </div>
         <link
           rel="preconnect"
@@ -49,10 +41,10 @@ export default function Home() {
                 probably don't need more convincing but in case you do, it's
                 also free!
               </p>
-              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto mt-3">
+              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto mt-3 font-bold">
                 ⏰ When? December 12th, 1-5pm
               </p>
-              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto">
+              <p className="font-gaegu text-lg md:text-xl max-w-lg m-auto font-bold">
                 📍 Where? Student life center
               </p>
               {/* RSVP GOES HERE */}
@@ -67,7 +59,7 @@ export default function Home() {
 
         <div className="relative py-6 w-[90vw] max-w-2xl">
           <p className="font-gaegu text-center text-darkYellow">
-            🤔 Did you know? {fact}
+            {/* DID YOU KNOW GOES HERE */}
           </p>
         </div>
       </main>
