@@ -7,7 +7,7 @@ To get started,
 3. 💾 Open the terminal in this root folder and run `npm install` to download all the necessary dependencies.
 4. 🏃‍♀️ Run `npm run dev` and open `localhost:3000`. You should see a page similar to screenshot below.
 
-![Therapy dogs text on a yellow gradient background](https://cloud-k3mvpw5py-hack-club-bot.vercel.app/0screenshot_2024-08-24_at_1.04.51_pm.png)
+![Therapy dogs text on a yellow gradient background](https://cloud-59ptz14uz-hack-club-bot.vercel.app/0screenshot_2024-09-13_at_9.43.51_pm.png)
 
 If you'd like to explore further, there are a few partially built components you can complete/use to help you customize your website day-of:
 - [confetti.js](/components/confetti.js): Click for some dog confetti!
